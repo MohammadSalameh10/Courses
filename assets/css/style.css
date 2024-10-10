@@ -3,7 +3,8 @@
 .header {
     padding: 20px 0;
     background-color: #F7F7F8;
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.082);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    opacity: 0.9;
 }
 
 .header .logo {
@@ -71,6 +72,133 @@
     .header .container {
         width: calc(100% - 60px);
     }
+}
+
+.courses {
+    background-color: #F7F7F8;
+    padding: 50px 0;
+}
+
+.courses-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.courses-header .courses-header-text{
+    width: calc(70% - 120px);
+}
+.courses-header h2 {
+    color: #262626;
+    font-family: var(--mainFont);
+}
+
+.courses-header p {
+    color: #4C4C4D;
+    font-family: var(--mainFont);
+}
+
+.courses-header .courses-header-button {
+    align-self: flex-end;
+    background-color: #FCFCFD;
+    border: #F1F1F3 1px solid;
+    padding: 15px 10px;
+    border-radius: 5px;
+
+}
+
+.courses-header .courses-header-button a {
+    color: #262626;
+    font-family: var(--mainFont);
+    font-weight: 700;
+}
+
+.courses-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.courses-list .course {
+    width: calc((100% - 20px)/2);
+    background-color: #FFFFFF;
+    padding: 30px 0;
+    border-radius: 7px;
+}
+
+.courses-list .course .container {
+    width: calc(100% - 60px);
+}
+
+.courses-list .course .row {
+    gap: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.courses-list .course img {
+    width: 100%;
+    border-radius: 7px;
+}
+
+.course .course-info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course-info .course-about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: #4C4C4D;
+    font-family: var(--mainFont);
+    
+}
+
+.course-duration,
+.course-level {
+    border: #F1F1F3 1px solid;
+    padding: 7px 15px;
+    border-radius: 7px;
+
+}
+
+.course-info .course-coach {
+    color: #262626;
+    font-family: var(--mainFont);
+    font-weight: 700;
+}
+
+.courses-list .course h3 {
+    color: #262626;
+    font-family: var(--mainFont);
+}
+
+.courses-list .course p {
+    color: #4C4C4D;
+    font-family: var(--mainFont);
+    height: 75px;
+}
+
+.courses-list .course-button {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    background-color: #F7F7F8;
+    border-radius: 7px;
+    border: #F1F1F3 1px solid;
+    padding: 15px 0;
+    
+}
+
+.courses-list .course-button a {
+    color: #262626;
+    font-family: var(--mainFont);
+    font-weight: 700;
 }
 
 .footer {
