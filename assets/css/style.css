@@ -58,3 +58,17 @@
 .header .menu {
     display: none;
 }
+
+@media screen and (max-width: 768px) {
+    .header .navbar {
+        display: none;
+    }
+
+    .header .menu {
+        display: block;
+    }
+
+    .header .container {
+        width: calc(100% - 60px);
+    }
+}
